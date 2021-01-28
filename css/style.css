@@ -95,8 +95,9 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     z-index: -1;
+    background-repeat: no-repeat;
 }
 .ad-bg{
     background: url('../IMG/3317826598212894679.jfif');
@@ -104,6 +105,7 @@
     height: 25vh;
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .featured-heading{
     color: rgb(0, 0, 37);

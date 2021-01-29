@@ -47,6 +47,30 @@
     color: #002f34!important;
     font-weight: 700;
     text-decoration: 2px #002f34 underline !important;
+    margin-top: -20px;
+}
+.modal-title{
+    min-height: 40vh;
+}
+.modal-title img{
+    width: 20vh;
+    position: relative;
+    left: 50%;
+}
+.modal-title p{
+    position: relative;
+    left: 15%;
+    margin-top: 10vh;
+}
+.social-login{
+    border: 3px solid rgb(0, 0, 37);
+}
+.social-login:hover{
+    border: 5px solid rgb(0, 0, 37);
+    background: rgb(216, 214, 214);
+}
+.social-login:hover ~ .phone-login{
+    color: rgb(0, 0, 158);
 }
 .login-link:hover{
     text-decoration: none !important;
@@ -183,6 +207,12 @@ a.link:hover{
 }
 .footer-container{
     display: flex !important;
+}
+.load-more-container{
+    display: none;
+}
+.display-block{
+    display: flex;
 }
 .load-more-btn{
     border: 3px solid rgb(0, 0, 37);

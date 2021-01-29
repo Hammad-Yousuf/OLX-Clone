@@ -88,15 +88,13 @@
 #banner{
     width: 100%;
     height: 50vh;
-    overflow: auto;
 }
 .bg-banner{
     background: url('../IMG/hero_bg_pk.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     width: 100%;
     height: 45vh;
-    z-index: -1;
     background-repeat: no-repeat;
 }
 .ad-bg{
@@ -123,6 +121,7 @@
 }
 .card{
     height: 100% !important;
+    min-width: 15rem;
 }
 .card-container{
     padding: 10px;

@@ -81,6 +81,9 @@
 .link{
     color: #002f34 !important;
 }
+a.link:hover{
+    color: gray!important;
+}
 .all-category{
     font-weight: 700 !important;
 }
@@ -238,6 +241,18 @@
 .social-icon{
     margin: 10px;
     cursor: pointer;
+}
+.youtube:hover{
+    color: red;
+}
+.facebook:hover{
+    color: rgb(55, 55, 243);
+}
+.twitter:hover{
+    color: rgb(0, 162, 226);
+}
+.instagram:hover{
+    color: rgb(247, 111, 111);
 }
 footer{
     background: #002f34;

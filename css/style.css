@@ -119,7 +119,7 @@ a.link:hover{
 .bg-banner{
     background: url('../IMG/hero_bg_pk.jpg');
     background-position: center;
-    background-size: auto;
+    background-size:200% ;
     width: 100%;
     height: 45vh;
     background-repeat: no-repeat;
